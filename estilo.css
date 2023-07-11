@@ -205,8 +205,8 @@ table{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .flex-card a{
@@ -301,9 +301,6 @@ table{
   }
 
 
-/*#pag-contatos p{
- 	margin: 20px;
-}*/
 
 .agendar-btn {
   background-color: #047BC1;
