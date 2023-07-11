@@ -41,11 +41,11 @@ nav{
 
 /*Formata o menu*/
 .menu-items li a {
-	text-decoration: none;
-	color: #FFF;
-	font-weight: bold;
-	font: 1.2rem 'Calistoga', serif;
-	margin-right: 20px;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  font: 1.2rem 'Calistoga', serif;
+  margin-right: 20px;
 }
 
 
@@ -72,9 +72,9 @@ nav{
 } 
 /*a:hover = Quando está sobre
   a:active = Quando está apertado*/
-  .a-menu:hover, .a-menu:active{
-  	color: #B2EBF2;
-  }
+.a-menu:hover, .a-menu:active{
+	color: #B2EBF2;
+}
 
 /*Tamanho do banner*/
 
@@ -86,9 +86,9 @@ header img {
 
 /*Centraliza botões abaixo do banner*/
 .button-container {
-	display: flex;
-	justify-content: center;
-	margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .button-container img{
@@ -131,9 +131,9 @@ h1{
 
 /* Divide a pagina entre texto e foto da igreja*/
 .igreja-container {
-	display: flex;
-	align-items: center;
-}
+    display: flex;
+    align-items: center;
+ }
 
 
 /*Formata a imagem da igreja*/
@@ -149,7 +149,7 @@ h1{
 /*Centraliza botão "Saiba mais "*/
 .botao-saiba{
 	display: flex;
-	margin: 20px 5px;
+  margin: 20px 5px;
 }
 
 
@@ -208,11 +208,11 @@ table{
 }
 
 .flex-card {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-left: 400px;
-	margin-right: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 .flex-card a{
@@ -220,43 +220,44 @@ table{
 }
 
 .row {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
 }
 
 .card {
-	width: 100%;
-	padding: 30px;
-	text-align: center;
-	border-radius: 20px;
-	
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  
 }
 
 .card img {
-	width: 100%;
-	height: 80%;
-	border-radius: 10px;
-	border-top: 4px solid #047BC1;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  border-top: 4px solid #047BC1;
 }
 
 .atv-button{
 	width: 100%;
 	display: flex;
-	padding: 5px;
-	color: #047BC1;
-	cursor: pointer;
-	margin-top: 5px;
-	align-items: center;
-	border-radius: 5px;
-	text-decoration: none;
-	justify-content: center;
-	background-color: #CFEEFF;
-	border: 2px solid #047BC1;
-	font: 0.9rem'Calistoga', serif;
+  padding: 5px;
+  color: #047BC1;
+  cursor: pointer;
+  margin-top: 5px;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #CFEEFF;
+  border: 2px solid #047BC1;
+  font: 0.9rem'Calistoga', serif;
 }
 
 
+/* Formatação contatos*/
 /* Formatação contatos*/
 .contatos {
 	border-top: 10px solid #047BC1;
@@ -275,43 +276,45 @@ table{
 }
 
 .contatos h2 {
-	margin-bottom: 10px;
-	font-size: 40px;
-	color: #047BC1;
-	margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #047BC1;
+  margin-top: 0;
 }
 
-
+.container-contatos{
+	display: flex;
+}
 .contatos h3 {
-	display: inline;
-	font-size: 20px;
-	color: #047BC1;
-	
-}
+  display: inline;
+  font-size: 20px;
+  color: #047BC1;
+    
+  }
 
 .contatos p {
 	font: 0.6rem'Roboto', serif;
 	text-align: left;
 	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 15px;
-	color: #807D7D;
-}
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #807D7D;
+  }
 
-
+ 
 .info {
-	display: inline-block;
-}
+ 	display: inline-block;
+ }
 
 .info p{
-	margin-left: 350px;
+ 	margin-left: 350px;
 }
 
-
+/*footer*/
 footer{
 	width: 100%;
 	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 	background-color: #047BC1;
 }
 
@@ -354,8 +357,8 @@ footer a{
 
 /*Pagina Palavra*/
 #pag-palavras{
-	margin-left: 25px;
-	margin-right: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #pag-palavras h1{
@@ -376,36 +379,36 @@ footer a{
 }
 
 #pag-videos{
-	background-color: #CFEEFF;
-	padding: 30px;
-	border: 2px solid #047BC1;
+  background-color: #CFEEFF;
+  padding: 30px;
+  border: 2px solid #047BC1;
 
 }
 .video-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .video-wrapper {
-	max-width: 500px;
-	height: 500px;S
-	margin: 10px;
-	margin: 30px;
+  max-width: 500px;
+  height: 500px;S
+  margin: 10px;
+  margin: 30px;
 }
 /*formatção frase abaixo do vídeo*/
 #pag-videos p{
-	margin-top: 10px;
-	text-align: center;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  margin-top: 10px;
+  text-align: center;
+  color: #807D7D;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 /*Página estudo*/
 #pag-estudo{
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
 }
 
 
@@ -415,10 +418,10 @@ footer a{
 }
 
 #pag-estudo p{
-	margin-top: 15px;
-	text-align: justify;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  margin-top: 15px;
+  text-align: justify;
+  color: #807D7D;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 
@@ -440,10 +443,10 @@ footer a{
 }
 
 #pag-grupos p{
-	margin-top: 15px;
-	text-align: justify;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  margin-top: 15px;
+  text-align: justify;
+  color: #807D7D;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 #pag-grupos img{
@@ -474,11 +477,11 @@ footer a{
 }
 
 #pag-louvor p{
-	margin-top: 15px;
-	margin-bottom: 30px;
-	text-align: justify;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: #807D7D;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 /*Página Liderança*/
@@ -499,9 +502,9 @@ footer a{
 #pag-lideranca p{
 	margin-top: 15px;
 	margin-bottom: 30px;
-	text-align: justify;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  	text-align: justify;
+  	color: #807D7D;
+  	font: 1.2rem 'Calistoga', serif;
 }
 
 
@@ -522,9 +525,9 @@ footer a{
 #pag-juventude p{
 	margin-top: 15px;
 	margin-bottom: 30px;
-	text-align: justify;
-	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  text-align: justify;
+  color: #807D7D;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 /*Página de Agendamentos*/
@@ -533,7 +536,7 @@ footer a{
 	text-align: center;
 	margin-bottom: 20px;
 	color: #807D7D;
-	font: 1.2rem 'Calistoga', serif;
+  font: 1.2rem 'Calistoga', serif;
 }
 
 form{
@@ -578,7 +581,7 @@ label, input, textarea{
 }
 
 input::placeholder {
-	color: #047BC1;
+  color: #047BC1;
 }
 
 #data-hora{
@@ -610,143 +613,155 @@ input[type="reset"]{
 
 /* Mobile */
 @media screen and (max-width: 390px) {
-	nav {
-		height: 50px;
-	}
+nav {
+	height: 50px;
+}
 
-	menu {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-
-	}
-
-	.social-icons{
-		display: none;
-		margin: 0;
-
-	}
-
-	.img-icones{
-		display: none;
-	}
-
-	.menu-items {
-		display: center;
-		flex-direction: row;
-		width: 100%;
-	}
-
-	.menu-items li a {
-		font-size: 0.6rem;
-		color: #333;
-		text-decoration: none;
-	}
-
-	ul{
-		margin-left: 10px;
-	}
-
-	#top-button{
-		display: none;
-	}
-
-	#img-banner img{
-		width: 100%;
-	}
-
-	#pag-igreja{
-		padding: 1.5px;
-	}
-
-	h1{
-		font-size: 1.2rem;
-	}
-
-	#pag-igreja p{
-		font-size: 0.9rem;
-	}
-
-	#pag-igreja img{
-		width: 100%;
-		height: 80%;
-
-	}
-
-	.image{
-		height: 50%;
-	}
-
-	.igreja-container{
-		flex-direction: column;
-	}
+menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 
-	.text{
-		margin-bottom: 20px;
-	}
+}
+
+.social-icons{
+	display: none;
+	margin: 0;
+
+}
+
+.img-icones{
+	display: none;
+}
+
+.menu-items {
+	display: center;
+	flex-direction: row;
+	width: 100%;
+}
+
+.menu-items li a {
+	font-size: 0.6rem;
+	color: #333;
+	text-decoration: none;
+}
+
+ul{
+	margin-left: 10px;
+}
+
+#top-button{
+	display: none;
+}
+
+#img-banner img{
+	width: 100%;
+}
+
+#pag-igreja{
+	padding: 1.5px;
+}
+
+h1{
+	font-size: 1.2rem;
+}
+
+#pag-igreja p{
+	font-size: 0.9rem;
+}
+
+#pag-igreja img{
+	width: 100%;
+	height: 80%;
+
+}
+
+.image{
+	height: 50%;
+}
+
+.igreja-container{
+	flex-direction: column;
+}
 
 
-	.image{
-		text-align: center;
-	}
+.text{
+	margin-bottom: 20px;
+}
 
 
-	h3 {
-		font-size: 1.5rem;
-		margin: 10px 0;
-	}
+.image{
+	text-align: center;
+}
 
-	#pag-programacao p{
-		font-size: 0.8rem;
-		text-align: left;
-	}
 
-	#pag-programacao {
+h3 {
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
 
-	}
+#pag-programacao p{
+	font-size: 0.8rem;
+	text-align: left;
+}
 
-	#container-programacao {
-		width: 100%;
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+ #pag-programacao {
 
-	#box-programacao {
-		display: flex;
-		flex-direction: column;
-		position: static;
-		width: 90%;
-		max-width: 100%;
-		height: auto;
-		margin: 10px;
-		background-color: #CFEEFF;
-		padding: 10px;
-	}
-	table{
-		margin: 0;
-		padding: 0;
-	}
+  }
 
-	.flex-card {
-		flex-direction: column;
-	}
+  #container-programacao {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-	.card {
-		margin-bottom: 20px;
-	}
+  #box-programacao {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    background-color: #CFEEFF;
+    padding: 10px;
+  }
+table{
+	margin: 0;
+	padding: 0;
+}
 
-	.atv-button {
-		font-size: 0.8rem;
-		height: 35px;
-	}
+.flex-card {
+			flex-direction: column;
+}
 
-	#pag-footer p {
-		font-size: 0.8rem;
-	}
+.card {
+			margin-bottom: 20px;
+		}
 
-	
+.atv-button {
+			font-size: 0.8rem;
+			height: 35px;
+		}
+
+.flex-card{
+	margin: 0;
+}
+
+.info p{
+	margin: 0;
+}
+
+#pag-contatos{
+	width: 100%;
+	margin: 0;
+}
+
+#pag-footer p {
+			font-size: 0.8rem;
+}
+
 }
