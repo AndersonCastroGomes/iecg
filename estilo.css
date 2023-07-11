@@ -108,7 +108,7 @@ article{
 
 /*Insere margem entre texto e foto da igreja*/
 .text{
-	margin-right: 140px;
+	margin-right: 20px;
 }
 
 h1{
@@ -175,12 +175,6 @@ h2{
 	margin: 30px 35px;
 }
 
-h3{
-	font: 2rem 'Calistoga', cursive;
-	color: #047BC1;
-	text-align: center;
-	margin: 25px 350px;
-}
 
 
 /*Centraliza o box de programação*/
@@ -257,14 +251,14 @@ table{
 }
 
 
+
 /* Formatação contatos*/
-/* Formatação contatos*/
-.contatos {
-	border-top: 10px solid #047BC1;
-	background-color: #CFEEFF;
-	text-align: center;
-	font-weight: bold;
-	padding: 15px;
+
+
+#container-contatos{
+	display: flex;
+	justify-content: space-between;
+	
 }
 
 .contatos img{
@@ -275,22 +269,27 @@ table{
 	float: right;
 }
 
+#pag-contatos h3{
+	color:#047BC1 ;
+	text-align: left;
+	font-size: 20px;
+}
+
+.contatos {
+	border-top: 10px solid #047BC1;
+	background-color: #CFEEFF;
+	font-weight: bold;
+	padding: 15px;
+
+}
+
 .contatos h2 {
   margin-bottom: 10px;
   font-size: 40px;
   color: #047BC1;
   margin-top: 0;
-}
 
-.container-contatos{
-	display: flex;
 }
-.contatos h3 {
-  display: inline;
-  font-size: 20px;
-  color: #047BC1;
-    
-  }
 
 .contatos p {
 	font: 0.6rem'Roboto', serif;
@@ -301,14 +300,27 @@ table{
   color: #807D7D;
   }
 
- 
-.info {
- 	display: inline-block;
- }
 
-.info p{
- 	margin-left: 350px;
+/*#pag-contatos p{
+ 	margin: 20px;
+}*/
+
+.agendar-btn {
+  background-color: #047BC1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font: 1.2rem 'Calistoga', serif;
+  border-radius: 5px;
 }
+
+#container-2{
+	display: flex;
+	justify-content: space-around;
+}
+
 
 /*footer*/
 footer{
@@ -531,6 +543,10 @@ footer a{
 }
 
 /*Página de Agendamentos*/
+#pag-agendamentos h1{
+	text-align: center;
+
+}
 
 #pag-agendamentos p{
 	text-align: center;
@@ -660,7 +676,7 @@ ul{
 }
 
 #pag-igreja{
-	padding: 1.5px;
+	margin: 20px;
 }
 
 h1{
@@ -668,12 +684,15 @@ h1{
 }
 
 #pag-igreja p{
-	font-size: 0.9rem;
+	font-size: 1rem;
+	text-align:justify ;
+
 }
 
 #pag-igreja img{
 	width: 100%;
-	height: 80%;
+	height: 70%;
+	margin-left: 0;
 
 }
 
@@ -682,12 +701,14 @@ h1{
 }
 
 .igreja-container{
-	flex-direction: column;
+	display: block;
+
 }
 
 
 .text{
-	margin-bottom: 20px;
+	margin-left:0;
+	
 }
 
 
